@@ -1,0 +1,18 @@
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Instalar dependências
+        run: npm ci
+
+      - name: Build do site
+        run: npm run build
+
+      - name: Upload do artifact do Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist
