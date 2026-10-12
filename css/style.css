@@ -455,10 +455,12 @@ footer p {
         background-position: center;
     }
 
-    #banner2 {
-        height: 190px;
+    #banner2{
+        background-image: url(../assets/images/banner-2-mobile.png);
         background-size: cover;
         background-position: center;
+        height: auto;
+        aspect-ratio: 500 / 221;
     }
 
     /* Seção Sobre Nós */
