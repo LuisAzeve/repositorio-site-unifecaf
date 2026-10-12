@@ -10,7 +10,6 @@ A ideia foi transformar a proposta do trabalho em um site que tivesse uma identi
 ## 🌐 Acesse o projeto
 
 * **Site publicado:** https://biblioteca-unifecaf-luis.netlify.app
-* **Repositório:** https://github.com/LuisAzeve/repositorio-site-unifecaf/tree/main
 
 ## 🎯 Objetivo do projeto
 
